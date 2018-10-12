@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-	cout << "±¸±¸´Ü 1-8 -> 1-9" << endl;
-	for (int i = 1; i < 10; i++)
+
+	for (int i = 1; i <= 9; i++)
 	{
 
-		for (int j = 1; j < 10; j++)
+		for (int j = 1; j <= 9; j++)
 		{
 			cout << i<< " * " << j << " = "<< i * j << endl;
 
@@ -16,7 +16,7 @@ int main()
 		cout << endl;
 	}
 	cout << endl;
-	cout << "³¡" << endl;
+	cout << "9*9Â±Â¸Â±Â¸Â´ÃœÂ³Â¡" << endl;
 
 
 
